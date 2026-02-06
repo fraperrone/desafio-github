@@ -5,3 +5,38 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
+
+
+/* generamos estylo para navbar */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+
+    
+    
+}
+
+/* actualizamos los url sin decoracion y en blanco */
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* quitamos los puntos de la lista */
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+/* ponemos los li en row */
+li {
+    display: inline;
+    margin: 0 10px;
+}
